@@ -11,8 +11,7 @@ def testSimulation():
     foodEaten = np.zeros(TOTAL_SIMS)
     for sim in range(TOTAL_SIMS):
         #Reset the world for every simulation
-        world = World(GRID_SIZE, AMOUNT_FOOD, AMOUNT_ANTS)
-
+        world = World(GRID_SIZE, AMOUNT_ANTS, AMOUNT_FOOD)
         #perform all the time steps
         for timeStep in range(TIME_STEPS):
             #For each time step check all ant coordinates to see if they match with any food coordinates

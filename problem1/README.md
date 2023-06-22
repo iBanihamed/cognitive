@@ -31,16 +31,21 @@ Run 1000 simulations with 100 ants, each for 100-time steps. Report the mean and
 
 
 
-# Some Example Test Run Results
+# Some Example Test Run Results for the following inputs
+TIME_STEPS = 100
+GRID_SIZE = 100
+AMOUNT_FOOD = 10
+AMOUNT_ANTS = 100
+TOTAL_SIMS = 1000
 
 ### Run #1
-The mean of food eaten across the 1000 simulations is: 4.671
-The standard deviation of food eaten across the 1000 simulations is: 2.168123382097984
+The mean of food eaten across the 1000 simulations is: 3.74
+The standard deviation of food eaten across the 1000 simulations is: 1.562817967646904
 
 ### Run #2
-The mean of food eaten across the 1000 simulations is: 4.795
-The standard deviation of food eaten across the 1000 simulations is: 2.107362095132206
+The mean of food eaten across the 1000 simulations is: 3.792
+The standard deviation of food eaten across the 1000 simulations is: 1.5068961477155616
 
 ### Run #3
-The mean of food eaten across the 1000 simulations is: 4.705
-The standard deviation of food eaten across the 1000 simulations is: 2.161937788189105
+The mean of food eaten across the 1000 simulations is: 3.727
+The standard deviation of food eaten across the 1000 simulations is: 1.4981558663904098
